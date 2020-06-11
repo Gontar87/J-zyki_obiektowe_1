@@ -14,7 +14,7 @@ class View(AbstractView):
         self.__model = model
         pygame.init()
         self.__okno_gry = pygame.display.set_mode((self.__model.szerokosc, self.__model.wysokosc), 0, 32)
-        pygame.display.set_caption('Gra o życie')
+        pygame.display.set_caption('Łukasz Gontarczyk - Gra w życie')
 
     def add_component(self, comp):
         pass
